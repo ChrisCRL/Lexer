@@ -1,0 +1,4 @@
+// Division by zero error
+number result = 10 / 0  // error: Division by zero
+output result
+/* test

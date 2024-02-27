@@ -1,0 +1,20 @@
+/* THIS IS THE FINAL TEST. PREPARE TO DIE??? */
+// ^ what he said!(()))(334256
+// this is also taken from Quorum's website https://quorumlanguage.com/lessons/chapter5/assignment5_2.html
+
+action Main
+    integer a = Factorial(5);;
+    output "a is equal to" + a
+
+end
+
+action Factorial(integer num) returns integer
+    // This is the "base case" condition. You want to stop multiplying integers when you reach one. Otherwise, you will compute the wrong answer, particularly if you mistakenly multiply by 0!
+    if num <= 1
+         return 1
+    else
+         // This is the recursive step.
+         return Factorial(num-1) * num
+    end
+end
+text message = "I guessed you passed! HOORAY!!!"[/?^*+"

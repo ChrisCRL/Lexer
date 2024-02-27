@@ -1,0 +1,10 @@
+integer a = 1.45
+integer b = 10
+integer c = 0
+if a > 100
+     c = 1
+elseif b = 100.351
+     c = 2
+end
+
+output c

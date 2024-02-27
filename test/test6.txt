@@ -1,0 +1,7 @@
+number temp = 25.23
+
+if temp >= 30
+  output "It's hot outside!"
+else
+  output "It's not too hot."
+end

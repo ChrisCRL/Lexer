@@ -1,0 +1,7 @@
+number year = 2023
+
+if (year mod 4 = 0 and year mod 100 not= 0) or (year mod 400 = 0)
+  output year + " is a leap year."
+else
+  output year + " is not a leap year."
+end
